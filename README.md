@@ -4,6 +4,8 @@ A 1:1 port of the [Berg theme](https://github.com/jx22/berg) (by jx22 / teehausa
 
 Black editor, amber prose, green headings, cyan italics, red comments, and the original dark red title bar.
 
+![Berg in OpenIDEA: Markdown source and preview in the black editor with amber text and green headings](docs/screenshot.png)
+
 ## Layout — separate IDE and editor themes
 
 ```
@@ -12,6 +14,7 @@ openidea-berg/
 ├─ berg.icls                    # standalone editor scheme (import via Settings › Editor › Color Scheme)
 ├─ install.sh / install.ps1     # installers (Linux, macOS / Windows)
 ├─ LICENSE                      # Beerware (port) + MIT (original Berg)
+├─ docs/screenshot.png          # README screenshot
 └─ themes/
    ├─ berg.theme.json           # IDE / UI theme (IntelliJ .theme.json counterpart)
    └─ berg.scheme.json          # editor colour scheme (IntelliJ .icls counterpart)
