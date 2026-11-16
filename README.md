@@ -1,6 +1,6 @@
 # Berg for OpenIDEA
 
-A 1:1 port of the [Berg theme](https://github.com/jx22/berg) (by jx22 / teehausamberg, MIT — see `LICENSE`) into an OpenIDEA theme plugin, using the [Zed port](https://github.com/norandom/zed_berg) as the mapping source: its `themes/berg.json` resolves the VS Code `tokenColors` duplicates ("later rule wins") into Zed captures, and its `source/berg-vscode.jsonc` is the original VS Code theme.
+A 1:1 port of the [Berg theme](https://github.com/jx22/berg) (by jx22 / teehausamberg, MIT) into an OpenIDEA theme plugin, using the [Zed port](https://github.com/norandom/zed_berg) as the mapping source: its `themes/berg.json` resolves the VS Code `tokenColors` duplicates ("later rule wins") into Zed captures, and its `source/berg-vscode.jsonc` is the original VS Code theme.
 
 Black editor, amber prose, green headings, cyan italics, red comments, and the original dark red title bar.
 
@@ -10,7 +10,7 @@ Black editor, amber prose, green headings, cyan italics, red comments, and the o
 openidea-berg/
 ├─ plugin.toml                  # manifest
 ├─ berg.icls                    # standalone editor scheme (import via Settings › Editor › Color Scheme)
-├─ LICENSE                      # MIT, original Berg copyright
+├─ LICENSE                      # Beerware (port) + MIT (original Berg)
 └─ themes/
    ├─ berg.theme.json           # IDE / UI theme (IntelliJ .theme.json counterpart)
    └─ berg.scheme.json          # editor colour scheme (IntelliJ .icls counterpart)
@@ -31,3 +31,7 @@ The split mirrors IntelliJ: `berg.theme.json` holds every UI token (surfaces, te
 - Hover backgrounds use Berg's gray `#414141` rather than the original pale-yellow `list.hoverBackground` `#fff799`, which cannot pair with a dark foreground (same adaptation as the Zed port).
 - Terminal/console ANSI colours come from the Zed port's `terminal.ansi.*` (the VS Code source has them commented out).
 - Berg defines no debugger/traffic-light colours, so the shadows and macOS traffic lights keep the built-in dark values (black shadows are set explicitly).
+
+## License
+
+The port is Beerware (Revision 42). The original Berg theme by jx22 stays under the MIT License; both notices are in `LICENSE`.

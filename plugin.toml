@@ -1,5 +1,5 @@
 # Berg for OpenIDEA, ported 1:1 from the Berg VS Code theme (jx22, MIT)
-# via the Zed port in zed_berg. See LICENSE (original copyright preserved).
+# via the Zed port in zed_berg. Port: Beerware; original theme: MIT. See LICENSE.
 id = "theme-berg"
 name = "Berg Theme"
 version = "1.0.0"
