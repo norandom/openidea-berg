@@ -21,7 +21,7 @@ The split mirrors IntelliJ: `berg.theme.json` holds every UI token (surfaces, te
 
 ## Install
 
-**Script:** run `./install.sh` (Linux, macOS) or `.install.ps1` (Windows). It copies the plugin into OpenIDEA's plugins folder (`ai.l0ng.openidea/plugins/theme-berg` under the app data directory; set `OPENIDEA_DATA_DIR` to override). Restart OpenIDEA, then press **Apply** next to *Berg Theme* in Settings › Plugins.
+**Script:** run `./install.sh` (Linux, macOS) or `.\install.ps1` (Windows). It copies the plugin into OpenIDEA's plugins folder (`ai.l0ng.openidea/plugins/theme-berg` under the app data directory; set `OPENIDEA_DATA_DIR` to override). Restart OpenIDEA, then press **Apply** next to *Berg Theme* in Settings › Plugins.
 
 **Full Berg look (IDE theme + editor scheme together):** Settings › Plugins › ⚙ › **Install Plugin from Disk…**, pick this folder, then press **Apply** next to *Berg Theme* in the plugin list. To iterate without reinstalling, symlink/copy the folder into `<project>/.openidea/plugins/` of an open project and press *Reload*.
 
