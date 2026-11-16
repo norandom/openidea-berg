@@ -1,0 +1,15 @@
+# Berg for OpenIDEA, ported 1:1 from the Berg VS Code theme (jx22, MIT)
+# via the Zed port in zed_berg. See LICENSE (original copyright preserved).
+id = "theme-berg"
+name = "Berg Theme"
+version = "1.0.0"
+description = "Berg: black editor, amber prose, green headings, cyan italics, red comments, dark red title bar. Ported from the Berg VS Code theme by jx22 (MIT), via the Zed port."
+authors = ["jx22 (original Berg theme)", "teehausamberg (VS Code theme)", "OpenIDEA (port)"]
+change-notes = "1.0.0 — first release."
+openidea-api = "0.1"
+
+# One entry per theme. `editor-scheme` is the separate editor colour scheme
+# (IntelliJ's .icls counterpart); its tokens are merged over the theme's.
+[[contributes.themes]]
+path = "themes/berg.theme.json"
+editor-scheme = "themes/berg.scheme.json"

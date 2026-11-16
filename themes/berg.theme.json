@@ -1,0 +1,150 @@
+// Berg: IDE (UI) theme. Keys are the CSS variables of src/styles/tokens.css,
+// grouped like its Islands Light block. Ported 1:1 from the Berg VS Code
+// theme (jx22) via the Zed port (zed_berg): black app, dark red title bar,
+// amber accent. The editor scheme lives in berg.scheme.json.
+// Full reference: docs/plugins/themes.md in the OpenIDEA repo.
+{
+  "id": "berg",
+  "name": "Berg",
+  "kind": "dark",
+  "tokens": {
+    // Surfaces
+    "--bg-app": "#000000",
+    "--bg-elev": "#464646",
+    "--bg-popup": "#414141",
+    "--bg-floating-toolbar": "#656365",
+    "--bg-hover": "#414141",
+    "--bg-selected": "#464646",
+    "--bg-selected-strong": "#464646",
+    "--bg-current-line": "#000000",
+    "--bg-debug-line": "#242224",
+    "--bg-backdrop": "#202020",
+    "--bg-input": "#000000",
+
+    // Lines
+    "--border": "#464646",
+    "--border-popup": "#2d2d2d",
+    "--border-strong": "#646667",
+    "--border-window": "#646667",
+    "--control-off": "#282828",
+
+    // Text
+    "--fg-strong": "#d7d7d7",
+    "--fg-emphasis": "#d7d7d7",
+    "--fg": "#d7d7d7",
+    "--fg-secondary": "#acacae",
+    "--fg-muted": "#acacae",
+    "--fg-subtle": "#646667",
+    "--fg-faint": "#646667",
+    "--fg-gutter": "#9e9e9e",
+    "--fg-icon": "#f49f31",
+
+    // Accent
+    "--accent": "#f49f31",
+    "--link": "#6d96d0",
+    "--link-hover": "#6d96d0",
+
+    // Charts
+    "--chart-series": "#f49f31",
+
+    // Status
+    "--danger": "#f44747",
+    "--warning": "#cd9731",
+    "--success": "#5dc453",
+    "--db-connected": "#5dc453",
+    "--db-connected-ring": "#41893a",
+    "--info": "#6796e6",
+
+    // Vcs
+    "--vcs-modified": "#f49f31",
+    "--vcs-added": "#5dc453",
+    "--vcs-deleted": "#d54135",
+    "--vcs-untracked": "#646667",
+    "--vcs-ignored": "#646667",
+    "--vcs-conflict": "#8c6eaf",
+    "--gutter-modified": "#f49f31",
+    "--gutter-added": "#5dc453",
+    "--gutter-deleted": "#d54135",
+    "--diff-modified": "#f49f3120",
+    "--diff-inserted": "#5dc45320",
+    "--diff-deleted": "#d5413520",
+
+    // Shadows and window controls
+    "--shadow-popup": "0 6px 20px rgba(0, 0, 0, 0.45)",
+    "--shadow-dialog": "0 0 0 0.5px rgba(0, 0, 0, 0.6), 0 10px 24px rgba(0, 0, 0, 0.35), 0 24px 72px rgba(0, 0, 0, 0.45)",
+    "--traffic-close": "#ff5f57",
+    "--traffic-close-border": "#e0443e",
+    "--traffic-close-pressed": "#bf4942",
+    "--traffic-glyph": "#4d0000",
+    "--traffic-off": "#404955",
+    "--traffic-off-border": "#363e49",
+
+    // Additive
+    "--bg-tooltip": "#464646",
+    "--fg-tooltip": "#d7d7d7",
+    "--border-tooltip": "#646667",
+    "--bg-control": "#464646",
+    "--bg-control-hover": "#656365",
+    "--bg-active": "#353f40",
+    "--bg-scrim": "rgba(0, 0, 0, 0.45)",
+    "--fg-on-accent": "#000000",
+    "--shadow-tooltip": "0 4px 12px rgba(0, 0, 0, 0.4)",
+    "--shadow-balloon": "0 8px 24px rgba(0, 0, 0, 0.45)",
+
+    // Islands contract
+    // The frame is also the title bar (openidea has no separate title-bar
+    // token): Berg's signature dark red titleBar.activeBackground.
+    "--bg-frame": "#87241e",
+    "--bg-island": "#282828",
+    "--bg-stripe-hover": "#414141",
+    "--bg-stripe-selected": "#464646",
+    "--fg-stripe-selected-active": "#d7d7d7",
+    "--fg-stripe-label": "#acacae",
+    "--bg-tab-selected": "#656365",
+    "--border-tab-selected": "#d7d7d7",
+    "--bg-tab-selected-inactive": "#464646",
+    "--border-tab-selected-inactive": "#656365",
+    "--bg-tab-hover": "#656365",
+    "--border-editor-tabs": "#2d2d2d",
+    "--bg-tree-selected": "#464646",
+    "--bg-tree-selected-inactive": "#414141",
+    "--bg-tree-hover": "#414141",
+    "--bg-toolbar-hover": "#414141",
+    "--bg-toolbar-pressed": "#353f40",
+    "--bg-toolbar-selected": "#464646",
+    "--bg-toolbar-selected-hover": "#656365",
+    "--bg-button-primary-hover": "#d7d7d7",
+    "--fg-button-primary": "#000000",
+    "--bg-button": "#464646",
+    "--border-button": "#000000",
+    "--bg-field": "#000000",
+    "--bg-checkbox": "#464646",
+    "--border-checkbox": "#464646",
+    "--bg-toggle-on": "#f49f31",
+    "--fg-toggle-on": "#000000",
+    "--bg-toggle-off": "#282828",
+    "--fg-toggle-off": "#646667",
+    "--border-toggle": "#464646",
+    "--bg-toggle-knob": "#646667",
+    "--focus-ring-soft": "#646667",
+    "--scrollbar-thumb": "#464646",
+    "--scrollbar-thumb-hover": "#464646",
+    "--bg-search-match": "#223d58",
+    "--bg-search-match-current": "#68339c",
+    "--fg-search-match": "#f49f31",
+    "--bg-dialog": "#282828",
+    "--bg-popup-inline": "#414141",
+    "--bg-popup-advertiser": "#414141",
+    "--bg-feedback-info": "#6796e620",
+    "--border-feedback-info": "#6796e680",
+    "--bg-feedback-error": "#f4474720",
+    "--border-feedback-error": "#f4474780",
+    "--bg-feedback-warning": "#cd973120",
+    "--border-feedback-warning": "#cd973180",
+    "--bg-feedback-success": "#5dc45320",
+    "--border-feedback-success": "#5dc45380",
+    "--bg-counter": "#acacae",
+    "--fg-counter": "#000000",
+    "--bg-progress-track": "#464646"
+  }
+}
