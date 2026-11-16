@@ -1,6 +1,6 @@
 # Berg for OpenIDEA
 
-A 1:1 port of the [Berg theme](https://github.com/jx22/berg) (by jx22 / teehausamberg, MIT — see `LICENSE`) into an OpenIDEA theme plugin, using the [Zed port](https://github.com/…/zed_berg) (`D:\Source\zed_berg`) as the mapping source: its `themes/berg.json` resolves the VS Code `tokenColors` duplicates ("later rule wins") into Zed captures, and its `source/berg-vscode.jsonc` is the original VS Code theme.
+A 1:1 port of the [Berg theme](https://github.com/jx22/berg) (by jx22 / teehausamberg, MIT — see `LICENSE`) into an OpenIDEA theme plugin, using the [Zed port](https://github.com/norandom/zed_berg) as the mapping source: its `themes/berg.json` resolves the VS Code `tokenColors` duplicates ("later rule wins") into Zed captures, and its `source/berg-vscode.jsonc` is the original VS Code theme.
 
 Black editor, amber prose, green headings, cyan italics, red comments, and the original dark red title bar.
 
