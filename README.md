@@ -10,6 +10,7 @@ Black editor, amber prose, green headings, cyan italics, red comments, and the o
 openidea-berg/
 ├─ plugin.toml                  # manifest
 ├─ berg.icls                    # standalone editor scheme (import via Settings › Editor › Color Scheme)
+├─ install.sh / install.ps1     # installers (Linux, macOS / Windows)
 ├─ LICENSE                      # Beerware (port) + MIT (original Berg)
 └─ themes/
    ├─ berg.theme.json           # IDE / UI theme (IntelliJ .theme.json counterpart)
@@ -19,6 +20,8 @@ openidea-berg/
 The split mirrors IntelliJ: `berg.theme.json` holds every UI token (surfaces, text, accent, status, VCS, islands contract) and `berg.scheme.json` holds the syntax, editor-surface and ANSI palette tokens, merged over the theme when applied.
 
 ## Install
+
+**Script:** run `./install.sh` (Linux, macOS) or `.install.ps1` (Windows). It copies the plugin into OpenIDEA's plugins folder (`ai.l0ng.openidea/plugins/theme-berg` under the app data directory; set `OPENIDEA_DATA_DIR` to override). Restart OpenIDEA, then press **Apply** next to *Berg Theme* in Settings › Plugins.
 
 **Full Berg look (IDE theme + editor scheme together):** Settings › Plugins › ⚙ › **Install Plugin from Disk…**, pick this folder, then press **Apply** next to *Berg Theme* in the plugin list. To iterate without reinstalling, symlink/copy the folder into `<project>/.openidea/plugins/` of an open project and press *Reload*.
 
